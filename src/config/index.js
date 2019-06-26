@@ -1,4 +1,4 @@
-const targetConfigs = {
+export default {
   username: 'root',
   password: 'root',
   database: 'test_dump',
@@ -9,5 +9,3 @@ const targetConfigs = {
     decimalNumbers: true,
   },
 };
-
-module.exports = targetConfigs;
