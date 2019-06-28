@@ -4,7 +4,7 @@ export default {
   database: 'test_dump',
   host: 'localhost',
   dialect: 'mysql',
-  logging: false,
+  logging: true,
   dialectOptions: {
     decimalNumbers: true,
   },
